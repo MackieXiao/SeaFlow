@@ -1,0 +1,15 @@
+{
+  "component_type": "element",
+  "category": "signal_source",
+  "method_source": "elem_sig_src",
+  "component_info": {
+
+    "sine_wave": {
+      "description": "",
+      "iport": ["amplitude", "frequency", "t_offset", "dc_offset"],
+      "oport": ["output"],
+      "method": "ElemSineWave"
+    }
+
+  }
+}

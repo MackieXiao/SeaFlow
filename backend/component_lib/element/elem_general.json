@@ -1,0 +1,36 @@
+{
+  "component_type": "element",
+  "category": "general",
+  "method_source": "elem_general",
+  "component_info": {
+
+    "constant": {
+      "description": "Constant value output",
+      "iport": [],
+      "oport": ["out"],
+      "method": "ElemConstant"
+    },
+
+    "divider": {
+      "description": "in1 divided by in2",
+      "iport": ["in1", "in2"],
+      "oport": ["out"],
+      "method": "ElemDivider"
+    },
+
+    "adder2": {
+      "description": "Adder with 2 channel input",
+      "iport": ["in1", "in2"],
+      "oport": ["out"],
+      "method": "ElemAdder2"
+    },
+
+    "adder3": {
+      "description": "Adder with 3 channel input",
+      "iport": ["in1", "in2", "in3"],
+      "oport": ["out"],
+      "method": "ElemAdder3"
+    }
+
+  }
+}

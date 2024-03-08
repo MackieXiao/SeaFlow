@@ -1,0 +1,9 @@
+# Introduction
+SeaFlow is a time domain node-based simulation software based on python and PyQt6. Main features are listed as below:
+1. Visualized node edit panel to enable user to have a more friendly interface.
+2. User can create their own node with user-defined system function h(t) and i/o port.
+
+# Known issue
+1. Node can't be added into the node editor view when scroll too much to the edge
+2. Component preview will not in the center of the view frame after change the window size
+
